@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"nhltracker"},{"l":"nhltracker.db"},{"l":"nhltracker.gui"},{"l":"test.nhltracker"}];updateSearchResults();
