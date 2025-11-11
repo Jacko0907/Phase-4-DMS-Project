@@ -32,7 +32,7 @@ public class NHLTrackerGUI extends JFrame {
 
     //Contructor that sets up the GUI along with a file handler to read and write player data to players.txt
     public NHLTrackerGUI() {
-        // === NEW CODE: Ask user for database location ===
+        //Ask user for database location
         JFileChooser fileChooser = new JFileChooser();
         fileChooser.setDialogTitle("Please select your NHL Stats database file");
         int userSelection = fileChooser.showOpenDialog(this);
@@ -321,3 +321,4 @@ public class NHLTrackerGUI extends JFrame {
         SwingUtilities.invokeLater(NHLTrackerGUI::new);
     }
 }
+
